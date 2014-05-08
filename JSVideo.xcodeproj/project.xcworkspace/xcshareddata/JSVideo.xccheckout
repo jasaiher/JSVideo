@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C138B08-BDF6-43EB-84E8-00E03FAF24D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSVideo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>72E4C7B8-FAA8-4CD6-A659-3FE0131E99EE</key>
+		<string>https://github.com/jasaiher/JSVideo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSVideo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>72E4C7B8-FAA8-4CD6-A659-3FE0131E99EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jasaiher/JSVideo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>72E4C7B8-FAA8-4CD6-A659-3FE0131E99EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72E4C7B8-FAA8-4CD6-A659-3FE0131E99EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSVideo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
