@@ -1,6 +1,8 @@
 JSVideo
 =======
 
+## Usage
+
 JSVideo help you to add in your view controllers a custom backgroundvideo.
 
 * Add all the files in the JSVideo folder to your project
@@ -9,7 +11,7 @@ JSVideo help you to add in your view controllers a custom backgroundvideo.
          MyViewController:JSVideoViewController
 
 * Run your project!
-* 
+
 
 ## License
 
