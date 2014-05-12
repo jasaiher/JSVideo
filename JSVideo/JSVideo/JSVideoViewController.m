@@ -33,6 +33,9 @@
 {
     [super viewWillAppear:animated];
     [self getPlayerNotifications];
+    
+    //Play MPMoviePlayer
+    [self.player play];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -45,6 +48,13 @@
                                                   object:nil];
 }
 
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    //Pause/Stop MPMoviePlayer
+    [self.player pause];
+}
+
 #pragma mark - Player
 
 -(void)getPlayerNotifications{
@@ -54,6 +64,7 @@
                                              selector:@selector(moviePlayerPlaybackStateChanged:)
                                                  name:MPMoviePlayerPlaybackStateDidChangeNotification
                                                object:nil];
+
     
 }
 
