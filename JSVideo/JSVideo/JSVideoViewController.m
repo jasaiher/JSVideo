@@ -19,8 +19,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.isLoop=[JSVideoFunctions getLoopMode];
-	[self prepareClipPlayback];
+    
+    //Check for configuration file
+    if ([JSVideoFunctions getUrlInfo]!=nil) {
+        self.isLoop=[JSVideoFunctions getLoopMode];
+        [self prepareClipPlayback];
+    }else{
+        NSLog(@"You must use a configure plist called JSVideoController-Info.plist. Please copy the example file SVideoController-Info.plist into your own project and configure the key/values on it.");
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,6 +39,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
     [self getPlayerNotifications];
     
     //Play MPMoviePlayer
@@ -64,16 +72,16 @@
                                              selector:@selector(moviePlayerPlaybackStateChanged:)
                                                  name:MPMoviePlayerPlaybackStateDidChangeNotification
                                                object:nil];
-
+    
     
 }
 
 -(void) prepareClipPlayback{
-        
+    
     if (self.player == nil) {
-
+        
         NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:[JSVideoFunctions getVideoUrl] ofType:[JSVideoFunctions getVideoType]]];
-
+        
         self.player = [[MPMoviePlayerController alloc] initWithContentURL:url];
         [self.player setControlStyle:MPMovieControlStyleNone];
         [self.player prepareToPlay];

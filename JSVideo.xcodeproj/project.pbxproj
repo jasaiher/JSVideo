@@ -22,10 +22,10 @@
 		432C42221912738B00A42707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432C42011912738B00A42707 /* UIKit.framework */; };
 		432C422A1912738B00A42707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 432C42281912738B00A42707 /* InfoPlist.strings */; };
 		432C422C1912738B00A42707 /* JSVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C422B1912738B00A42707 /* JSVideoTests.m */; };
-		432C423C191273C700A42707 /* JSVideoController-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 432C4237191273C700A42707 /* JSVideoController-Info.plist */; };
 		432C423D191273C700A42707 /* JSVideoFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C4239191273C700A42707 /* JSVideoFunctions.m */; };
 		432C423E191273C700A42707 /* JSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C423B191273C700A42707 /* JSVideoViewController.m */; };
 		432C42571912850100A42707 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 432C42561912850100A42707 /* demo.mp4 */; };
+		434C5CE41938CE3500BE33D8 /* JSVideoController-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 434C5CE31938CE3500BE33D8 /* JSVideoController-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,13 +59,13 @@
 		432C42271912738B00A42707 /* JSVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSVideoTests-Info.plist"; sourceTree = "<group>"; };
 		432C42291912738B00A42707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		432C422B1912738B00A42707 /* JSVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSVideoTests.m; sourceTree = "<group>"; };
-		432C4237191273C700A42707 /* JSVideoController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JSVideoController-Info.plist"; sourceTree = "<group>"; };
 		432C4238191273C700A42707 /* JSVideoFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSVideoFunctions.h; sourceTree = "<group>"; };
 		432C4239191273C700A42707 /* JSVideoFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSVideoFunctions.m; sourceTree = "<group>"; };
 		432C423A191273C700A42707 /* JSVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSVideoViewController.h; sourceTree = "<group>"; };
 		432C423B191273C700A42707 /* JSVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSVideoViewController.m; sourceTree = "<group>"; };
 		432C42461912755B00A42707 /* JSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConstants.h; sourceTree = "<group>"; };
 		432C42561912850100A42707 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		434C5CE31938CE3500BE33D8 /* JSVideoController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JSVideoController-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +133,7 @@
 				432C42121912738B00A42707 /* Main_iPad.storyboard */,
 				432C42151912738B00A42707 /* ViewController.h */,
 				432C42161912738B00A42707 /* ViewController.m */,
+				434C5CE31938CE3500BE33D8 /* JSVideoController-Info.plist */,
 				432C42181912738B00A42707 /* Images.xcassets */,
 				432C42041912738B00A42707 /* Supporting Files */,
 			);
@@ -171,7 +172,6 @@
 		432C4236191273C700A42707 /* JSVideo */ = {
 			isa = PBXGroup;
 			children = (
-				432C4237191273C700A42707 /* JSVideoController-Info.plist */,
 				432C4238191273C700A42707 /* JSVideoFunctions.h */,
 				432C4239191273C700A42707 /* JSVideoFunctions.m */,
 				432C423A191273C700A42707 /* JSVideoViewController.h */,
@@ -268,9 +268,9 @@
 				432C42141912738B00A42707 /* Main_iPad.storyboard in Resources */,
 				432C42191912738B00A42707 /* Images.xcassets in Resources */,
 				432C42571912850100A42707 /* demo.mp4 in Resources */,
+				434C5CE41938CE3500BE33D8 /* JSVideoController-Info.plist in Resources */,
 				432C42111912738B00A42707 /* Main_iPhone.storyboard in Resources */,
 				432C42081912738B00A42707 /* InfoPlist.strings in Resources */,
-				432C423C191273C700A42707 /* JSVideoController-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

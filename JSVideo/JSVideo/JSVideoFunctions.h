@@ -10,6 +10,8 @@
 
 @interface JSVideoFunctions : NSObject
 
+
++(NSDictionary *)getUrlInfo;
 +(NSString *) getVideoUrl;
 +(NSString *) getVideoType;
 +(BOOL) getLoopMode;
