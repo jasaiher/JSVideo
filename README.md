@@ -7,7 +7,7 @@ JSVideo help you to add in your view controllers a custom backgroundvideo.
 
 * Copy all the files in JSVideo folder to your project.
 * Add your custom video. You can include a different video with the same name and -568h extension for iPhone5 screens.          Eg: "movie.mp4" and "movie-568h.mp4"
-* Fill JSVideoController-Info.plist file in order to set up and get your yoursource video.
+* Copy the set up plist file from the example, or create a new one, called 'JSVideoController-Info.plist'. You must fill it in order to set up your own source video.
 * Extend your view controller from JSVideoViewController.
         Eg: MyViewController:JSVideoViewController
 
